@@ -1,5 +1,6 @@
 //Connect NODE to MYSQL
 var mysql = require("mysql");
+//var connection;
 
 //Setting up the connection
 var connection = mysql.createConnection({
