@@ -1,5 +1,5 @@
 //importing mysql connection
-var connection = require(".../config/connection.js");
+var connection = require("../config/connection.js");
 
 //helper functions
 function printQuestionMarks(num) {
@@ -21,7 +21,9 @@ return arr.toString();
 
 
 var orm = {
-    selectAll: function() }
+    selectAll: function(tableInput, cb){
+        var queryString = "SELECT * FROM" + tableInput + 
+    } }
 
 selectAll();
 insertOne();
